@@ -1,9 +1,9 @@
-[![Architecture](media/logo.png)](https://github.com/mtanvirulislam/infodium)
+[![Architecture](media/logo.png)](https://github.com/gmfaruk/dataplatform.git)
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-ready-brightgreen.svg?style=flat-square&logo=docker) ![Apache Flink](https://img.shields.io/badge/Flink-latest-e6526f?style=flat-square&logo=Apache-Flink) ![Apache Spark](https://img.shields.io/badge/Spark-3.1.2-e35a16?style=flat-square&logo=Apache-Spark) ![Apache Kafka](https://img.shields.io/badge/Kafka-5.4.1-000000?style=flat-square&logo=Apache-Kafka) ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-7.12.1-f3d337?style=flat-square&logo=Elasticsearch) ![Kibana](https://img.shields.io/badge/Kibana-7.12.1-3bbfb1?style=flat-square&logo=Kibana) ![AWS S3](https://img.shields.io/badge/Localstack_S3-latest-8c3123?style=flat-square&logo=Amazon-s3) ![MySql](https://img.shields.io/badge/MySql-latest-00758f?style=flat-square&logo=mysql)
 
 ## Overview
-Infodium (info + podium) is a lambda architecture demo for data processing and analysis.
+Data platform  is a lambda architecture demo for data processing and analysis.
 
 The objective of this project is to demonstrate an analytical platform model that is capable of processing data in real time and batch and visualizing the result using different types of technologies..
 
@@ -47,12 +47,12 @@ The objective of this project is to demonstrate an analytical platform model tha
 
 Clone repository
 ```
-git clone https://github.com/mtanvirulislam/infodium.git
+git clone https://github.com/gmfaruk/dataplatform.git
 ```
 
 Move to project directory
 ```
-cd infodium
+cd dataplatform
 ```
 
 Set execute permission to start and stop script
@@ -62,7 +62,7 @@ chmod +x start
 chmod +x stop
 ```
 
-Start infodium
+Start dataplatform
 ```
 ./start
 
@@ -70,7 +70,7 @@ Start infodium
 bash start
 ```
 
-Stop infodium
+Stop dataplatform
 ```
 ./stop
 
